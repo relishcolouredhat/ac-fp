@@ -1,4 +1,4 @@
-name: lowercase_content
+name: uppercase_content
 on:
   push:
     branches: [ "main" ]
@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  lowercase-all-csv-content:
+  uppercase-all-csv-content:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -17,12 +17,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Lowercase CSV contents in /passes and subdirectories
+      - name: Uppercase CSV contents in /passes and subdirectories
         run: |
           find passes -name "*.csv" -print0 | while IFS= read -r -d '' file; do
             echo "Processing: $file"
-            diff <(tr '[:upper:]' '[:lower:]' < "$file") "$file" || true
-            tr '[:upper:]' '[:lower:]' < "$file" > temp.csv
+            diff <(tr '[:lower:]' '[:upper:]' < "$file") "$file" || true
+            tr '[:lower:]' '[:upper:]' < "$file" > temp.csv
             mv temp.csv "$file"
           done
 
