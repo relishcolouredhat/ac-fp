@@ -1,0 +1,16 @@
+name: Run CI sequence
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  uppercase_content:
+    uses: ./.github/workflows/uppercase_content.yml
+
+  build_jsons:
+    needs: uppercase_content  # Run action-b after action-a completes
+    uses: ./.github/workflows/uppercase_content.yml  # Path to your b.yml workflow file
