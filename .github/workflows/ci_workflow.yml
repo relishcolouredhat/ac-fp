@@ -8,11 +8,14 @@ on:
   workflow_dispatch:
 
 jobs:
-  permissions:
-    contents: write
+
   uppercase_content:
     uses: ./.github/workflows/uppercase_content.yml
-
+    permissions:
+      contents: write
+      
   build_jsons:
     needs: uppercase_content  # Run action-b after action-a completes
     uses: ./.github/workflows/uppercase_content.yml  # Path to your b.yml workflow file
+    permissions:
+      contents: write
