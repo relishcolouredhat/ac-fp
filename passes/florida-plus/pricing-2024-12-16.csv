@@ -1,7 +1,7 @@
-origin,fare_brand,travellers,credits,price
-yul,flex,1,6,3710
-yul,latitude,1,6,5947
-yul,business,1,6,10395
-yul,flex,2,8,4947
-yul,latitude,2,8,7929
-yul,business,2,8,13860
+ORIGIN,FARE_BRAND,TRAVELLERS,CREDITS,PRICE
+YUL,FLEX,1,6,3710
+YUL,LATITUDE,1,6,5947
+YUL,BUSINESS,1,6,10395
+YUL,FLEX,2,8,4947
+YUL,LATITUDE,2,8,7929
+YUL,BUSINESS,2,8,13860
