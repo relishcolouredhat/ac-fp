@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  lowercase-filename:
+  lowercase-all-csv-content:
     runs-on: ubuntu-latest
     permissions:
       # Give the default GITHUB_TOKEN write permission to commit and push the
