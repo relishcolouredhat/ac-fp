@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Create JSON of each CSV /passes and subdirectories
+      - name: Create JSON of each CSV in /passes and subdirectories
         run: |
           find passes -name "*.csv" -print0 | while IFS= read -r -d '' file; do
             echo "Processing: $file"
@@ -20,6 +20,13 @@ jobs:
             mv temp.json "$file.json"
           done
 
+      - name: Create JSON of each CSV in /ref and subdirectories
+        run: |
+          find ref -name "*.csv" -print0 | while IFS= read -r -d '' file; do
+            echo "Processing: $file"
+            cat $file | python -c 'import csv, json, sys; print(json.dumps([dict(r) for r in csv.DictReader(sys.stdin)]))' > temp.json
+            mv temp.json "$file.json"
+          done
       - uses: stefanzweifel/git-auto-commit-action@v5
 
 
