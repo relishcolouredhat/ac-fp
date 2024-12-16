@@ -1,4 +1,4 @@
-name: Run CI sequence
+name: Run automatic CI sequence
 
 on:
   push:
@@ -16,6 +16,6 @@ jobs:
       
   build_jsons:
     needs: uppercase_content  # Run action-b after action-a completes
-    uses: ./.github/workflows/uppercase_content.yml  # Path to your b.yml workflow file
+    uses: ./.github/workflows/build_jsons.yml  # Path to your b.yml workflow file
     permissions:
       contents: write
