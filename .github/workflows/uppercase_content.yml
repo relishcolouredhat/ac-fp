@@ -1,6 +1,7 @@
 name: uppercase_content
 on:
   workflow_dispatch:
+  workflow_call:
 
 jobs:
   uppercase-all-csv-content:

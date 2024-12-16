@@ -1,6 +1,7 @@
 name: build_jsons
 on:
   workflow_dispatch:
+  workflow_call:
 
 jobs:
   build-jsons:
