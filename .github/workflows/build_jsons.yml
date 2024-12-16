@@ -19,7 +19,6 @@ jobs:
 
       - name: Create JSON of each CSV /passes and subdirectories
         run: |
-          cd passes
           find passes -name "*.csv" -print0 | while IFS= read -r -d '' file; do
             echo "Processing: $file"
             cat $file | python -c 'import csv, json, sys; print(json.dumps([dict(r) for r in csv.DictReader(sys.stdin)]))' > temp.json
