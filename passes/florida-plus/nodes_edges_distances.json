@@ -329,25 +329,25 @@
     {
       "source": "YUL",
       "target": "ANU",
-      "distance": 1750,
+      "distance": 1087,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "AUA",
-      "distance": 1194,
+      "distance": 741,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "GGT",
-      "distance": 676,
+      "distance": 419,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "NAS",
-      "distance": 694,
+      "distance": 431,
       "distance_source": "haversine"
     },
     {
@@ -359,19 +359,19 @@
     {
       "source": "YUL",
       "target": "BZE",
-      "distance": 1644,
+      "distance": 1020,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "BDA",
-      "distance": 1126,
+      "distance": 699,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "GCM",
-      "distance": 1033,
+      "distance": 641,
       "distance_source": "haversine"
     },
     {
@@ -383,31 +383,31 @@
     {
       "source": "YUL",
       "target": "SJO",
-      "distance": 1335,
+      "distance": 829,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "HAV",
-      "distance": 1076,
+      "distance": 668,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "CUR",
-      "distance": 1275,
+      "distance": 791,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "AZS",
-      "distance": 1004,
+      "distance": 623,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "POP",
-      "distance": 935,
+      "distance": 580,
       "distance_source": "haversine"
     },
     {
@@ -419,7 +419,7 @@
     {
       "source": "YUL",
       "target": "GND",
-      "distance": 1888,
+      "distance": 1172,
       "distance_source": "haversine"
     },
     {
@@ -431,19 +431,19 @@
     {
       "source": "YUL",
       "target": "PAP",
-      "distance": 880,
+      "distance": 546,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "KIN",
-      "distance": 839,
+      "distance": 521,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "MBJ",
-      "distance": 856,
+      "distance": 531,
       "distance_source": "haversine"
     },
     {
@@ -455,7 +455,7 @@
     {
       "source": "YUL",
       "target": "CUN",
-      "distance": 1498,
+      "distance": 930,
       "distance_source": "haversine"
     },
     {
@@ -467,79 +467,79 @@
     {
       "source": "YUL",
       "target": "HUX",
-      "distance": 2436,
+      "distance": 1513,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "ZIH",
-      "distance": 2992,
+      "distance": 1858,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "MTY",
-      "distance": 2890,
+      "distance": 1794,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "PVR",
-      "distance": 3420,
+      "distance": 2123,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "SJD",
-      "distance": 3923,
+      "distance": 2436,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "TQO",
-      "distance": 1577,
+      "distance": 979,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "SJU",
-      "distance": 1324,
+      "distance": 822,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "UVF",
-      "distance": 1921,
+      "distance": 1193,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "SXM",
-      "distance": 1600,
+      "distance": 994,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "SVD",
-      "distance": 1917,
+      "distance": 1190,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "SKB",
-      "distance": 1657,
+      "distance": 1028,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "POS",
-      "distance": 1970,
+      "distance": 1223,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "PLS",
-      "distance": 781,
+      "distance": 485,
       "distance_source": "haversine"
     },
     {
@@ -557,13 +557,13 @@
     {
       "source": "YUL",
       "target": "RSW",
-      "distance": 985,
+      "distance": 611,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "JAX",
-      "distance": 944,
+      "distance": 586,
       "distance_source": "haversine"
     },
     {
@@ -581,25 +581,25 @@
     {
       "source": "YUL",
       "target": "SRQ",
-      "distance": 1051,
+      "distance": 653,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "TPA",
-      "distance": 1045,
+      "distance": 649,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "PBI",
-      "distance": 841,
+      "distance": 522,
       "distance_source": "haversine"
     },
     {
       "source": "YUL",
       "target": "MSY",
-      "distance": 1835,
+      "distance": 1139,
       "distance_source": "haversine"
     },
     {
