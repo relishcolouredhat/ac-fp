@@ -1,0 +1,28 @@
+name: Generate Nodes and Edges JSON
+
+on:
+    workflow_dispatch:
+    workflow_call:  
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Generate JSON for each subdirectory
+      run: |
+        for dir in passes/*; do
+          if [[ -d "$dir" ]]; then
+            cd "$dir"
+            python ../../src/generate_json.py
+            cd ..
+          fi
+        done
+
+    - uses: stefanzweifel/git-auto-commit-action@v5

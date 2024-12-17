@@ -19,3 +19,9 @@ jobs:
     uses: ./.github/workflows/build_jsons.yml  # Path to your b.yml workflow file
     permissions:
       contents: write
+
+  build_nodes_edges_json:
+    needs: uppercase_content  # Run action-b after action-a completes
+    uses: ./.github/workflows/generate_nodes_edges_json.yml  # Path to your b.yml workflow file
+    permissions:
+      contents: write
