@@ -1,23 +1,9 @@
 import json
 import csv
-from math import radians, cos, sin, asin, sqrt
 from urllib.request import urlopen
 
-def haversine(lon1, lat1, lon2, lat2):
-    """
-    Calculate the great circle distance between two points 
-    on the earth (specified in decimal degrees)
-    """
-    # Convert decimal degrees to radians 
-    lon1, lat1, lon2, lat2 = map(radians, [lon1, lat1, lon2, lat2])
-
-    # Haversine formula 
-    dlon = lon2 - lon1 
-    dlat = lat2 - lat1 
-    a = sin(dlat/2)**2 + cos(lat1) * cos(lat2) * sin(dlon/2)**2 
-    c = 2 * asin(sqrt(a)) 
-    r = 3956 # Radius of earth in kilometers. Use 3956 for miles 
-    return c * r
+# Import the geopy library for Haversine calculations
+from geopy.distance import geodesic
 
 # Fetch the airport coordinates data only once
 url = "https://raw.githubusercontent.com/cowtool-llc/ac-sqd/refs/heads/main/src/main/resources/airports.csv"
@@ -32,11 +18,13 @@ for row in reader:
     except (IndexError, ValueError):
         pass  # Handle potential errors in the CSV data
 
+
 def get_airport_coordinates(airport_code):
     """
     Retrieves airport coordinates from the pre-fetched data.
     """
     return airport_coordinates.get(airport_code)
+
 
 def generate_json(nodes_file, distances_file, output_file):
     """
@@ -58,25 +46,26 @@ def generate_json(nodes_file, distances_file, output_file):
     for node in nodes_data:
         if node['TYPE'] == 'DESTINATION':
             distance = 0
-            source = "haversine"  # Default to haversine
+            source = "geopy"
             for dist in distances_data:
                 if (dist['origin'] == 'YUL' or dist['destination'] == 'YUL') and \
-                   (dist['destination'] == node['ID'] or dist['origin'] == node['ID']):
+                        (dist['destination'] == node['ID'] or dist['origin'] == node['ID']):
                     distance = int(dist.get('distance') or dist.get('old_distance') or 0)
-                    source = "file"  # Found in file
+                    source = "file"
                     break
 
-            if distance == 0:  # Calculate distance if not found in file
+            if distance == 0:
                 yul_coords = get_airport_coordinates("YUL")
                 dest_coords = get_airport_coordinates(node['ID'])
                 if yul_coords and dest_coords:
-                    distance = int(haversine(yul_coords[0], yul_coords[1], dest_coords[0], dest_coords[1]))
+                    # Use geopy to calculate the distance
+                    distance = int(geodesic(yul_coords, dest_coords).km)
 
             edges.append({
                 'source': 'YUL',
                 'target': node['ID'],
                 'distance': distance,
-                'distance_source': source  # Add distance source
+                'distance_source': source
             })
 
     output_data = {
