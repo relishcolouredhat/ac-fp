@@ -1,0 +1,612 @@
+{
+  "nodes": [
+    {
+      "ID": "YYC",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YEG",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YVR",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YWG",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YFC",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YQM",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YSJ",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YDF",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YQX",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YYR",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YYT",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YHZ",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YQY",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YXU",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YYB",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YOW",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YZR",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YAM",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YSB",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YQT",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YTS",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YTZ",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YYZ",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YQG",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YYG",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YBG",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YGR",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YTM",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YUL",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YQB",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YUY",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YZV",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YQR",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "YXE",
+      "TYPE": "ORIGIN"
+    },
+    {
+      "ID": "ANU",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "AUA",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "GGT",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "NAS",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "BGI",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "BZE",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "BDA",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "GCM",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "LIR",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "SJO",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "HAV",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "CUR",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "AZS",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "POP",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "PUJ",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "GND",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "PTP",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "PAP",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "KIN",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "MBJ",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "FDF",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "CUN",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "CZM",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "HUX",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "ZIH",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "MTY",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "PVR",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "SJD",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "TQO",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "SJU",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "UVF",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "SXM",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "SVD",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "SKB",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "POS",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "PLS",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "PHX",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "FLL",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "RSW",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "JAX",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "MIA",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "MCO",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "SRQ",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "TPA",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "PBI",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "MSY",
+      "TYPE": "DESTINATION"
+    },
+    {
+      "ID": "LAS",
+      "TYPE": "DESTINATION"
+    }
+  ],
+  "edges": [
+    {
+      "source": "YUL",
+      "target": "ANU",
+      "distance": 1750,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "AUA",
+      "distance": 1194,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "GGT",
+      "distance": 676,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "NAS",
+      "distance": 694,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "BGI",
+      "distance": 2386,
+      "distance_source": "file"
+    },
+    {
+      "source": "YUL",
+      "target": "BZE",
+      "distance": 1644,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "BDA",
+      "distance": 1126,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "GCM",
+      "distance": 1033,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "LIR",
+      "distance": 2505,
+      "distance_source": "file"
+    },
+    {
+      "source": "YUL",
+      "target": "SJO",
+      "distance": 1335,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "HAV",
+      "distance": 1076,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "CUR",
+      "distance": 1275,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "AZS",
+      "distance": 1004,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "POP",
+      "distance": 935,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "PUJ",
+      "distance": 1884,
+      "distance_source": "file"
+    },
+    {
+      "source": "YUL",
+      "target": "GND",
+      "distance": 1888,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "PTP",
+      "distance": 2135,
+      "distance_source": "file"
+    },
+    {
+      "source": "YUL",
+      "target": "PAP",
+      "distance": 880,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "KIN",
+      "distance": 839,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "MBJ",
+      "distance": 856,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "FDF",
+      "distance": 2256,
+      "distance_source": "file"
+    },
+    {
+      "source": "YUL",
+      "target": "CUN",
+      "distance": 1498,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "CZM",
+      "distance": 1879,
+      "distance_source": "file"
+    },
+    {
+      "source": "YUL",
+      "target": "HUX",
+      "distance": 2436,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "ZIH",
+      "distance": 2992,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "MTY",
+      "distance": 2890,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "PVR",
+      "distance": 3420,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "SJD",
+      "distance": 3923,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "TQO",
+      "distance": 1577,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "SJU",
+      "distance": 1324,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "UVF",
+      "distance": 1921,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "SXM",
+      "distance": 1600,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "SVD",
+      "distance": 1917,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "SKB",
+      "distance": 1657,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "POS",
+      "distance": 1970,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "PLS",
+      "distance": 781,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "PHX",
+      "distance": 2179,
+      "distance_source": "file"
+    },
+    {
+      "source": "YUL",
+      "target": "FLL",
+      "distance": 1384,
+      "distance_source": "file"
+    },
+    {
+      "source": "YUL",
+      "target": "RSW",
+      "distance": 985,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "JAX",
+      "distance": 944,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "MIA",
+      "distance": 1406,
+      "distance_source": "file"
+    },
+    {
+      "source": "YUL",
+      "target": "MCO",
+      "distance": 1246,
+      "distance_source": "file"
+    },
+    {
+      "source": "YUL",
+      "target": "SRQ",
+      "distance": 1051,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "TPA",
+      "distance": 1045,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "PBI",
+      "distance": 841,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "MSY",
+      "distance": 1835,
+      "distance_source": "haversine"
+    },
+    {
+      "source": "YUL",
+      "target": "LAS",
+      "distance": 2231,
+      "distance_source": "file"
+    }
+  ]
+}
