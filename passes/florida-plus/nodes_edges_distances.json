@@ -329,26 +329,26 @@
     {
       "source": "YUL",
       "target": "ANU",
-      "distance": 1087,
-      "distance_source": "haversine"
+      "distance": 3332,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "AUA",
-      "distance": 741,
-      "distance_source": "haversine"
+      "distance": 3671,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "GGT",
-      "distance": 419,
-      "distance_source": "haversine"
+      "distance": 2438,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "NAS",
-      "distance": 431,
-      "distance_source": "haversine"
+      "distance": 2291,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
@@ -359,20 +359,20 @@
     {
       "source": "YUL",
       "target": "BZE",
-      "distance": 1020,
-      "distance_source": "haversine"
+      "distance": 3379,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "BDA",
-      "distance": 699,
-      "distance_source": "haversine"
+      "distance": 1651,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "GCM",
-      "distance": 641,
-      "distance_source": "haversine"
+      "distance": 2986,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
@@ -383,32 +383,32 @@
     {
       "source": "YUL",
       "target": "SJO",
-      "distance": 829,
-      "distance_source": "haversine"
+      "distance": 4057,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "HAV",
-      "distance": 668,
-      "distance_source": "haversine"
+      "distance": 2614,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "CUR",
-      "distance": 791,
-      "distance_source": "haversine"
+      "distance": 3717,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "AZS",
-      "distance": 623,
-      "distance_source": "haversine"
+      "distance": 2929,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "POP",
-      "distance": 580,
-      "distance_source": "haversine"
+      "distance": 2866,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
@@ -419,8 +419,8 @@
     {
       "source": "YUL",
       "target": "GND",
-      "distance": 1172,
-      "distance_source": "haversine"
+      "distance": 3879,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
@@ -431,20 +431,20 @@
     {
       "source": "YUL",
       "target": "PAP",
-      "distance": 546,
-      "distance_source": "haversine"
+      "distance": 2985,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "KIN",
-      "distance": 521,
-      "distance_source": "haversine"
+      "distance": 3066,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "MBJ",
-      "distance": 531,
-      "distance_source": "haversine"
+      "distance": 3015,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
@@ -455,8 +455,8 @@
     {
       "source": "YUL",
       "target": "CUN",
-      "distance": 930,
-      "distance_source": "haversine"
+      "distance": 2964,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
@@ -467,80 +467,80 @@
     {
       "source": "YUL",
       "target": "HUX",
-      "distance": 1513,
-      "distance_source": "haversine"
+      "distance": 3907,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "ZIH",
-      "distance": 1858,
-      "distance_source": "haversine"
+      "distance": 4018,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "MTY",
-      "distance": 1794,
-      "distance_source": "haversine"
+      "distance": 3209,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "PVR",
-      "distance": 2123,
-      "distance_source": "haversine"
+      "distance": 3980,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "SJD",
-      "distance": 2436,
-      "distance_source": "haversine"
+      "distance": 4079,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "TQO",
-      "distance": 979,
-      "distance_source": "haversine"
+      "distance": 3084,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "SJU",
-      "distance": 822,
-      "distance_source": "haversine"
+      "distance": 3082,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "UVF",
-      "distance": 1193,
-      "distance_source": "haversine"
+      "distance": 3719,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "SXM",
-      "distance": 994,
-      "distance_source": "haversine"
+      "distance": 3197,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "SVD",
-      "distance": 1190,
-      "distance_source": "haversine"
+      "distance": 3774,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "SKB",
-      "distance": 1028,
-      "distance_source": "haversine"
+      "distance": 3286,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "POS",
-      "distance": 1223,
-      "distance_source": "haversine"
+      "distance": 4042,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "PLS",
-      "distance": 485,
-      "distance_source": "haversine"
+      "distance": 2631,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
@@ -557,14 +557,14 @@
     {
       "source": "YUL",
       "target": "RSW",
-      "distance": 611,
-      "distance_source": "haversine"
+      "distance": 2218,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "JAX",
-      "distance": 586,
-      "distance_source": "haversine"
+      "distance": 1800,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
@@ -581,26 +581,26 @@
     {
       "source": "YUL",
       "target": "SRQ",
-      "distance": 653,
-      "distance_source": "haversine"
+      "distance": 2152,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "TPA",
-      "distance": 649,
-      "distance_source": "haversine"
+      "distance": 2091,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "PBI",
-      "distance": 522,
-      "distance_source": "haversine"
+      "distance": 2160,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
       "target": "MSY",
-      "distance": 1139,
-      "distance_source": "haversine"
+      "distance": 2242,
+      "distance_source": "geopy"
     },
     {
       "source": "YUL",
